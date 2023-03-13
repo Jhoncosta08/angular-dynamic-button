@@ -1,0 +1,27 @@
+<app-dynamic-button
+  [buttonText]="'PRIMARY'"
+  [buttonType]="'primary'"
+  [buttonDisable]="false"
+  (buttonAction)="buttonAction('primary')">
+</app-dynamic-button>
+
+<app-dynamic-button
+  [buttonText]="'WARN'"
+  [buttonType]="'warn'"
+  [buttonDisable]="false"
+  (buttonAction)="buttonAction('warn')">
+</app-dynamic-button>
+
+<app-dynamic-button
+  [buttonText]="'DANGER'"
+  [buttonType]="'danger'"
+  [buttonDisable]="false"
+  (buttonAction)="buttonAction('danger')">
+</app-dynamic-button>
+
+<app-dynamic-button
+  [buttonText]="'PRIMARY DISABLE'"
+  [buttonType]="'primary'"
+  [buttonDisable]="true"
+  (buttonAction)="buttonAction('primary')">
+</app-dynamic-button>
