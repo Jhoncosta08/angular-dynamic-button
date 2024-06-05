@@ -53,5 +53,5 @@
 > Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Preview app
-![image](https://github.com/Jhoncosta08/angular-dynamic-button/blob/master/src/assets/preview-one.png)
+![image](https://github.com/Jhoncosta08/angular-dynamic-button/blob/main/src/assets/preview-one.png)
 
